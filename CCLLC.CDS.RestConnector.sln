@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCLLC.CDS.RestConnector", "CCLLC.CDS.RestConnector\CCLLC.CDS.RestConnector.csproj", "{D9CB2E50-9BA2-421E-A31D-CBE6068B1902}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pipeline", "Pipeline", "{599212F6-1654-49C1-924A-5CE562C145F9}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9CB2E50-9BA2-421E-A31D-CBE6068B1902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CB2E50-9BA2-421E-A31D-CBE6068B1902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CB2E50-9BA2-421E-A31D-CBE6068B1902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CB2E50-9BA2-421E-A31D-CBE6068B1902}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF204C51-C275-4863-9132-89FD92448262}
+	EndGlobalSection
+EndGlobal

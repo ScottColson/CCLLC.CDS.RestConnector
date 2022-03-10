@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata minClientVersion="3.3.0">
+    <id>CCLLC.CDS.RestConnector.Sources</id>
+    <version>$version$</version>
+    <description>CDS Rest Connector for accessing CDS from web applications.</description>
+    <authors>Colson Code, LLC</authors>
+    <owners>Colson Code, LLC</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/ScottColson/CCLLC.CDS.RestConnector</projectUrl>
+    <tags></tags>
+    <dependencies>
+      <dependency id="CCLLC.Core.Serialization.Sources" version="1.0.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\CCLLC.CDS.RestConnector\Interfaces\*.cs" target="content/App_Packages/CCLLC.CDS.RestConnector.$version$/" />
+    <file src="..\CCLLC.CDS.RestConnector\*.cs" target="content/App_Packages/CCLLC.CDS.RestConnector.$version$/" />
+  </files>
+</package>
